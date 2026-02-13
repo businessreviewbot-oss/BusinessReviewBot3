@@ -1,1 +1,13 @@
-ZXhwb3J0IHR5cGUgUGxhblR5cGUgPSAnZnVsbC1hY2Nlc3MnOwpleHBvcnQgdHlwZSBCaWxsaW5nUGVyaW9kID0gJ21vbnRobHknIHwgJ2FubnVhbCc7CmV4cG9ydCBpbnRlcmZhY2UgU3RyaXBlUGxhbkNvbmZpZyB7IHByb2R1Y3RJZD86IHN0cmluZzsgcHJpY2VJZD86IHN0cmluZzsgfQpleHBvcnQgY29uc3QgU1RSSVBFX1BMQU5TOiBSZWNvcmQ8UGxhblR5cGUsIFJlY29yZDxCaWxsaW5nUGVyaW9kLCBTdHJpcGVQbGFuQ29uZmlnPj4gPSB7CiAgJ2Z1bGwtYWNjZXNzJzogewogICAgbW9udGhseTogeyBwcm9kdWN0SWQ6ICdwcm9kX1RzUjBFUlI0ZGVwaVhkJyB9LAogICAgYW5udWFsOiB7IHByb2R1Y3RJZDogJ3Byb2RfVHNSMjJxVlVtb1FGNXMnIH0sCiAgfSwKfTsKZXhwb3J0IGZ1bmN0aW9uIGdldFN0cmlwZVBsYW5Db25maWcocGxhblR5cGU6IFBsYW5UeXBlLCBiaWxsaW5nUGVyaW9kOiBCaWxsaW5nUGVyaW9kKTogU3RyaXBlUGxhbkNvbmZpZyB7CiAgcmV0dXJuIFNUUklQRV9QTEFOU1twbGFuVHlwZV1bYmlsbGluZ1BlcmlvZF07Cn0KZXhwb3J0IGZ1bmN0aW9uIG5vcm1hbGl6ZVBsYW5OYW1lKHBsYW5OYW1lOiBzdHJpbmcpOiBQbGFuVHlwZSB7IHJldHVybiAnZnVsbC1hY2Nlc3MnOyB9Cg==
+export type PlanType = 'full-access';
+export type BillingPeriod = 'monthly' | 'annual';
+export interface StripePlanConfig { productId?: string; priceId?: string; }
+export const STRIPE_PLANS: Record<PlanType, Record<BillingPeriod, StripePlanConfig>> = {
+  'full-access': {
+    monthly: { productId: 'prod_TsR0ERR4depiXd' },
+    annual: { productId: 'prod_TsR22qVumoQF5s' },
+  },
+};
+export function getStripePlanConfig(planType: PlanType, billingPeriod: BillingPeriod): StripePlanConfig {
+  return STRIPE_PLANS[planType][billingPeriod];
+}
+export function normalizePlanName(planName: string): PlanType { return 'full-access'; }
