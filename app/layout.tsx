@@ -1,1 +1,22 @@
-CmltcG9ydCB0eXBlIHsgTWV0YWRhdGEgfSBmcm9tICJuZXh0IjsKaW1wb3J0IHsgR2Vpc3QsIEdlaXN0X01vbm8gfSBmcm9tICJuZXh0L2ZvbnQvZ29vZ2xlIjsKaW1wb3J0ICIuL2dsb2JhbHMuY3NzIjsKaW1wb3J0IFByb3ZpZGVycyBmcm9tICJAL2NvbXBvbmVudHMvUHJvdmlkZXJzIjsKCmNvbnN0IGdlaXN0U2FucyA9IEdlaXN0KHsgdmFyaWFibGU6ICItLWZvbnQtZ2Vpc3Qtc2FucyIsIHN1YnNldHM6IFsibGF0aW4iXSB9KTsKY29uc3QgZ2Vpc3RNb25vID0gR2Vpc3RfTW9ubyh7IHZhcmlhYmxlOiAiLS1mb250LWdlaXN0LW1vbm8iLCBzdWJzZXRzOiBbImxhdGluIl0gfSk7CgpleHBvcnQgY29uc3QgbWV0YWRhdGE6IE1ldGFkYXRhID0gewogIHRpdGxlOiAiQnVzaW5lc3NSZXZpZXdCb3QgLSBBSS1Qb3dlcmVkIFJldmlldyBSZXNwb25zZSBBdXRvbWF0aW9uIiwKICBkZXNjcmlwdGlvbjogIlJlcGx5IHRvIHJldmlld3MgNXggZmFzdGVyIHdpdGggQUkuIEF1dG9tYXRlIHlvdXIgR29vZ2xlIEJ1c2luZXNzIHJldmlldyByZXNwb25zZXMgYW5kIGJvb3N0IGxvY2FsIFNFTy4iLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gUm9vdExheW91dCh7IGNoaWxkcmVuIH06IFJlYWRvbmx5PHsgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZSB9PikgewogIHJldHVybiAoCiAgICA8aHRtbCBsYW5nPSJlbiI+CiAgICAgIDxib2R5IGNsYXNzTmFtZT17YCR7Z2Vpc3RTYW5zLnZhcmlhYmxlfSAke2dlaXN0TW9uby52YXJpYWJsZX0gYW50aWFsaWFzZWRgfT4KICAgICAgICA8UHJvdmlkZXJzPntjaGlsZHJlbn08L1Byb3ZpZGVycz4KICAgICAgPC9ib2R5PgogICAgPC9odG1sPgogICk7Cn0K
+import type { Metadata } from "next";
+import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
+import Providers from "@/components/Providers";
+
+const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
+const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "BusinessReviewBot - AI-Powered Review Response Automation",
+  description: "Reply to reviews 5x faster with AI. Automate your Google Business review responses and boost local SEO.",
+};
+
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="en">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+        <Providers>{children}</Providers>
+      </body>
+    </html>
+  );
+}
