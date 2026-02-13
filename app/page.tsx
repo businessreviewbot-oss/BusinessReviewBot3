@@ -1,1 +1,25 @@
-J3VzZSBjbGllbnQnOwoKaW1wb3J0IE5hdmJhciBmcm9tICdAL2NvbXBvbmVudHMvTmF2YmFyJzsKaW1wb3J0IEhlcm9TZWN0aW9uIGZyb20gJ0AvY29tcG9uZW50cy9IZXJvU2VjdGlvbic7CmltcG9ydCBGZWF0dXJlc1NlY3Rpb24gZnJvbSAnQC9jb21wb25lbnRzL0ZlYXR1cmVzU2VjdGlvbic7CmltcG9ydCBQcmljaW5nU2VjdGlvbiBmcm9tICdAL2NvbXBvbmVudHMvUHJvdmlkZXJzJzsKLy8gTm90ZTogUHJpY2luZ1NlY3Rpb24gaXMgbWlzc2luZyBpbiBteSBleHRyYWN0ZWQgY29kZSwgdXNpbmcgTWFnaWNSZXNwb25zZUdlbmVyYXRvciBpbnN0ZWFkIGZvciBkZW1vCmltcG9ydCBNYWdpY1Jlc3BvbnNlR2VuZXJhdG9yIGZyb20gJ0AvY29tcG9uZW50cy9NYWdpY1Jlc3BvbnNlR2VuZXJhdG9yJzsKaW1wb3J0IEZBUVNlY3Rpb24gZnJvbSAnQC9jb21wb25lbnRzL0ZBUVNlY3Rpb24nOwppbXBvcnQgRm9vdGVyIGZyb20gJ0AvY29tcG9uZW50cy9Gb290ZXInOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTGFuZGluZ1BhZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxtYWluIGNsYXNzTmFtZT0ibWluLWgtc2NyZWVuIGJnLVsjMDYxNjJjXSB0ZXh0LXdoaXRlIHNlbGVjdGlvbjpiZy1za3ktNTAwLzMwIj4KICAgICAgPE5hdmJhciAvPgogICAgICA8SGVyb1NlY3Rpb24gLz4KICAgICAgPGRpdiBjbGFzc05hbWU9InJlbGF0aXZlIHotMTAiPgogICAgICAgIDxNYWdpY1Jlc3BvbnNlR2VuZXJhdG9yIC8+CiAgICAgICAgPEZlYXR1cmVzU2VjdGlvbiAvPgogICAgICAgIDxGQVFTZWN0aW9uIC8+CiAgICAgIDwvZGl2PgogICAgICA8Rm9vdGVyIC8+CiAgICA8L21haW4+CiAgKTsKfQo=
+'use client';
+
+import Navbar from '@/components/Navbar';
+import HeroSection from '@/components/HeroSection';
+import FeaturesSection from '@/components/FeaturesSection';
+import PricingSection from '@/components/Providers';
+// Note: PricingSection is missing in my extracted code, using MagicResponseGenerator instead for demo
+import MagicResponseGenerator from '@/components/MagicResponseGenerator';
+import FAQSection from '@/components/FAQSection';
+import Footer from '@/components/Footer';
+
+export default function LandingPage() {
+  return (
+    <main className=\"min-h-screen bg-[#06162c] text-white selection:bg-sky-500/30\">
+      <Navbar />
+      <HeroSection />
+      <div className=\"relative z-10\">
+        <MagicResponseGenerator />
+        <FeaturesSection />
+        <FAQSection />
+      </div>
+      <Footer />
+    </main>
+  );
+}
