@@ -7,6 +7,7 @@ import MagicResponseGenerator from '@/components/MagicResponseGenerator';
 import FAQSection from '@/components/FAQSection';
 import Footer from '@/components/Footer';
 
+
 export default function LandingPage() {
   return (
     <main className="min-h-screen bg-[#06162c] text-white selection:bg-sky-500/30">
