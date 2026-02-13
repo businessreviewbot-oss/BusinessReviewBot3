@@ -1,1 +1,64 @@
-J3VzZSBjbGllbnQnOwoKaW1wb3J0IHsgIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBTcGFya2xlcywgQ29weSwgQ2hlY2sgfSBmcm9tICdsdWNpZGUtcmVhY3QnOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gTWFnaWNSZXNwb25zZUdlbmVyYXRvcigpIHsKICBjb25zdCBbcmV2aWV3LCBzZXRSZXZpZXddID0gdXNlU3RhdGUoJycpOwogIGNvbnN0IFtyZXNwb25zZSwgc2V0UmVzcG9uc2VdID0gdXNlU3RhdGUoJycpOwogIGNvbnN0IFtpc0xvYWRpbmcsIHNldElzTG9hZGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgW2NvcGllZCwgc2V0Q29waWVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgY29uc3QgZ2VuZXJhdGVSZXNwb25zZSA9IGFzeW5jICgpID0+IHsKICAgIGlmICghcmV2aWV3KSByZXR1cm47CiAgICBzZXRJc0xvYWRpbmcodHJ1ZSk7CiAgICB0cnkgewogICAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaCgnL2FwaS9tYWdpYy1yZXNwb25zZScsIHsKICAgICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgICBoZWFkZXJzOiB7ICdDb250ZW50LVR5cGUnOiAnYXBwbGljYXRpb24vanNvbicgfSwKICAgICAgICBib2R5OiBKU09OLnN0cmluZ2lmeSh7IHJldmlldyB9KSwKICAgICAgfSk7CiAgICAgIGNvbnN0IGRhdGEgPSBhd2FpdCByZXMuanNvbigpOwogICAgICBzZXRSZXNwb25zZShkYXRhLnJlc3BvbnNlKTsKICAgIH0gY2F0Y2ggKGVycm9yKSB7CiAgICAgIGNvbnNvbGUuZXJyb3IoJ0Vycm9yOicsIGVycm9yKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldElzTG9hZGluZyhmYWxzZSk7CiAgICB9CiAgfTsKCiAgY29uc3QgY29weVRvQ2xpcGJvYXJkID0gKCkgPT4gewogICAgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQocmVzcG9uc2UpOwogICAgc2V0Q29waWVkKHRydWUpOwogICAgc2V0VGltZW91dCgoKSA9PiBzZXRDb3BpZWQoZmFsc2UpLCAyMDAwKTsKICB9OwoKICByZXR1cm4gKAogICAgPHNlY3Rpb24gaWQ9ImRlbW8iIGNsYXNzTmFtZT0icHktMjAgcHgtNCBiZy1bIzBhMGYxZV0iPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctNHhsIG14LWF1dG8gYmctd2hpdGUvNSByb3VuZGVkLTJ4bCBwLTggYm9yZGVyIGJvcmRlci13aGl0ZS8xMCI+CiAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtd2hpdGUgbWItOCB0ZXh0LWNlbnRlciB0ZXh0LXNreS00MDAiPlRyeSB0aGUgTWFnaWMgUmVzcG9uc2UgR2VuZXJhdG9yPC9oMj4KICAgICAgICA8dGV4dGFyZWEKICAgICAgICAgIHZhbHVlPXtyZXZpZXd9CiAgICAgICAgICBvbkNoYW5nZT17KGUpID0+IHNldFJldmlldyhlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICBwbGFjZWhvbGRlcj0iUGFzdGUgYSBjdXN0b21lciByZXZpZXcgaGVyZS4uLiAoZS5nLiwgJ1RoZSBzZXJ2aWNlIHdhcyBleGNlbGxlbnQgYnV0IHRoZSB3YWl0IHRpbWUgd2FzIHRvbyBsb25nLicpIgogICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgaC00MCBiZy13aGl0ZS81IGJvcmRlciBib3JkZXItd2hpdGUvMTAgcm91bmRlZC14bCBwLTQgdGV4dC13aGl0ZSBtYi02IGZvY3VzOnJpbmctMiBmb2N1czpyaW5nLXNreS01MDAgZm9jdXM6b3V0bGluZS1ub25lIgogICAgICAgIC8+CiAgICAgICAgPGJ1dHRvbgogICAgICAgICAgb25DbGljaz17Z2VuZXJhdGVSZXNwb25zZX0KICAgICAgICAgIGRpc2FibGVkPXtpc0xvYWRpbmcgfHwgIXJldmlld30KICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB5LTQgYmctZ3JhZGllbnQtdG8tciBmcm9tLVsjMDBjMmZmXSB0by1bIzhiNWNmNl0gcm91bmRlZC14bCB0ZXh0LXdoaXRlIGZvbnQtYm9sZCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBnYXAtMiBob3ZlcjpvcGFjaXR5LTkwIHRyYW5zaXRpb24tb3BhY2l0eSBkaXNhYmxlZDpvcGFjaXR5LTUwIgogICAgICAgID4KICAgICAgICAgIHtpc0xvYWRpbmcgPyAnR2VuZXJhdGluZy4uLicgOiAoPD48U3BhcmtsZXMgLz4gR2VuZXJhdGUgUmVzcG9uc2U8Lz4pfQogICAgICAgIDwvYnV0dG9uPgogICAgICAgIHtyZXNwb25zZSAmJiAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibXQtOCBwLTYgYmctd2hpdGUvNSByb3VuZGVkLXhsIGJvcmRlciBib3JkZXItd2hpdGUvMTAgcmVsYXRpdmUgc2hhZG93LTJ4bCBzaGFkb3ctc2t5LTUwMC8xMCBhbmltYXRlLWluIGZhZGUtaW4gc2xpZGUtaW4tZnJvbS1ib3R0b20tNCBkdXJhdGlvbi01MDAiPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtZ3JheS0zMDAgbGVhZGluZy1yZWxheGVkIj57cmVzcG9uc2V9PC9wPgogICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9e2NvcHlUb0NsaXBib2FyZH0gY2xhc3NOYW1lPSJhYnNvbHV0ZSB0b3AtNCByaWdodC00IHRleHQtZ3JheS00MDAgaG92ZXI6dGV4dC13aGl0ZSB0cmFuc2l0aW9uLWNvbG9ycyI+CiAgICAgICAgICAgICAge2NvcGllZCA/IDxDaGVjayBjbGFzc05hbWU9InRleHQtZ3JlZW4tNTAwIiAvPiA6IDxDb3B5IGNsYXNzTmFtZT0idy01IGgtNSIgLz59CiAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKX0KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQo=
+'use client';
+
+import {  useState } from 'react';
+import { Sparkles, Copy, Check } from 'lucide-react';
+
+export default function MagicResponseGenerator() {
+  const [review, setReview] = useState('');
+  const [response, setResponse] = useState('');
+  const [isLoading, setIsLoading] = useState(false);
+  const [copied, setCopied] = useState(false);
+
+  const generateResponse = async () => {
+    if (!review) return;
+    setIsLoading(true);
+    try {
+      const res = await fetch('/api/magic-response', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ review }),
+      });
+      const data = await res.json();
+      setResponse(data.response);
+    } catch (error) {
+      console.error('Error:', error);
+    } finally {
+      setIsLoading(false);
+    }
+  };
+
+  const copyToClipboard = () => {
+    navigator.clipboard.writeText(response);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
+  return (
+    <section id="demo" className="py-20 px-4 bg-[#0a0f1e]">
+      <div className="max-w-4xl mx-auto bg-white/5 rounded-2xl p-8 border border-white/10">
+        <h2 className="text-3xl font-bold text-white mb-8 text-center text-sky-400">Try the Magic Response Generator</h2>
+        <textarea
+          value={review}
+          onChange={(e) => setReview(e.target.value)}
+          placeholder="Paste a customer review here... (e.g., 'The service was excellent but the wait time was too long.')"
+          className="w-full h-40 bg-white/5 border border-white/10 rounded-xl p-4 text-white mb-6 focus:ring-2 focus:ring-sky-500 focus:outline-none"
+        />
+        <button
+          onClick={generateResponse}
+          disabled={isLoading || !review}
+          className="w-full py-4 bg-gradient-to-r from-[#00c2ff] to-[#8b5cf6] rounded-xl text-white font-bold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity disabled:opacity-50"
+        >
+          {isLoading ? 'Generating...' : (<><Sparkles /> Generate Response</>)}
+        </button>
+        {response && (
+          <div className="mt-8 p-6 bg-white/5 rounded-xl border border-white/10 relative shadow-2xl shadow-sky-500/10 animate-in fade-in slide-in-from-bottom-4 duration-500">
+            <p className="text-gray-300 leading-relaxed">{response}</p>
+            <button onClick={copyToClipboard} className="absolute top-4 right-4 text-gray-400 hover:text-white transition-colors">
+              {copied ? <Check className="text-green-500" /> : <Copy className="w-5 h-5" />}
+            </button>
+          </div>
+        )}
+      </div>
+    </section>
+  );
+}
