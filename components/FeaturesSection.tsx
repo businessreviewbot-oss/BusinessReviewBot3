@@ -1,1 +1,36 @@
-J3VzZSBjbGllbnQnOwoKaW1wb3J0IHsgU2hpZWxkLCBDcmVkaXRDYXJkLCBCYXJDaGFydDMsIFphcCwgTG9jaywgVHJlbmRpbmdVcCB9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7Cgpjb25zdCBmZWF0dXJlcyA9IFsKICB7IGljb246IFNoaWVsZCwgdGl0bGU6ICdHb29nbGUgc2lnbi1pbicsIGRlc2NyaXB0aW9uOiAnU2VjdXJlIGFjY2VzcyBmb3IgeW91ciBjdXN0b21lcnMuJywgY29sb3I6ICdmcm9tLVsjMDBjMmZmXSB0by1bIzAwOTljY10nIH0sCiAgeyBpY29uOiBDcmVkaXRDYXJkLCB0aXRsZTogJ1N0cmlwZSBiaWxsaW5nJywgZGVzY3JpcHRpb246ICdNb250aGx5L2FubnVhbCBwbGFucyArIHNlbGYtc2VydmUgcG9ydGFsLicsIGNvbG9yOiAnZnJvbS1bIzhiNWNmNl0gdG8tWyM2ZDI4ZDldJyB9LAogIHsgaWNvbjogQmFyQ2hhcnQzLCB0aXRsZTogJ1JlYWwtVGltZSBEYXNoYm9hcmQnLCBkZXNjcmlwdGlvbjogJ01vbml0b3IgcmV2aWV3cyBhbmQgYW5hbHl0aWNzIGluIG9uZSBpbnR1aXRpdmUgaW50ZXJmYWNlLicsIGNvbG9yOiAnZnJvbS1bIzAwYzJmZl0gdG8tWyM4YjVjZjZcountIH0sCiAgeyBpY29uOiBaYXAsIHRpdGxlOiAnQUkgUmVzcG9uc2VzJywgZGVzY3JpcHRpb246ICdBSS1wb3dlcmVkIHJlc3BvbnNlcyBnZW5lcmF0ZWQgaW4gc2Vjb25kcy4nLCBjb2xvcnogJ2Zyb20tWyM4YjVjZjZcountIHRvLVsjMDBjMmZmXScgfSwKICB7IGljb246IExvY2ssIHRpdGxlOiAnQmFuay1MZXZlbCBTZWN1cml0eScsIGRlc2NyaXB0aW9uOiAnWW91ciBkYXRhIGlzIGVuY3J5cHRlZCBhbmQgcHJvdGVjdGVkIHdpdGggaW5kdXN0cnktbGVhZGluZyBzZWN1cml0eSBwcm90b2NvbHMuJywgY29sb3I6ICdmcm9tLVsjMDBjMmZmXSB0by1bIzAwOTljY10nIH0sCiAgeyBpY29uOiBUcmVuZGluZ1VwLCB0aXRsZTogJ1NFTyBPcHRpbWl6YXRpb24nLCBkZXNjcmlwdGlvbjogJ0Jvb3N0IHlvdXIgbG9jYWwgc2VhcmNoIHJhbmtpbmdzIHdpdGggY29uc2lzdGVudCByZXZpZXcgcmVzcG9uc2VzLicsIGNvbG9yOiAnZnJvbS1bIzhiNWNmNl0gdG8tWyM2ZDI4ZDldJyB9LApdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRmVhdHVyZXNTZWN0aW9uKCkgewogIHJldHVybiAoCiAgICA8c2VjdGlvbiBpZD0iZmVhdHVyZXMiIGNsYXNzTmFtZT0icHktMjAgcHgtNCBzbTpweC02IGxnOnB4LTggcmVsYXRpdmUgYmctWyMwYTBmMWVdIj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTd4bCBteC1hdXRvIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItMTYiPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC00eGwgZm9udC1ib2xkIHRleHQtd2hpdGUgbWItNCI+RXZlcnl0aGluZyBZb3UgTmVlZCB0byBTdWNjZWVkPC9oMj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1ncmF5LTQwMCI+QnVpbHQgd2l0aCB0aGUgbGF0ZXN0IHRlY2hub2xvZ3kgZm9yIGEgc2VhbWxlc3MgZXhwZXJpZW5jZS48L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgbWQ6Z3JpZC1jb2xzLTIgbG66Z3JpZC1jb2xzLTMgZ2FwLTgiPgogICAgICAgICAge2ZlYXR1cmVzLm1hcCgoZiwgaSkgPT4gKAogICAgICAgICAgICA8ZGl2IGtleT17aX0gY2xhc3NOYW1lPSJncm91cCBiYWNrZHJvcC1ibHVyLXhsIGJnLXdoaXRlLzUgYm9yZGVyIGJvcmRlci13aGl0ZS8xMCByb3VuZGVkLTJ4bCBwLTYgaG92ZXI6Ymctd2hpdGUvMTAgdHJhbnNpdGlvbi1hbGwiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPXtgdy0xNCBoLTE0IHJvdW5kZWQteGwgYmctZ3JhZGllbnQtdG8tciAke2YuY29sb3J9IGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIG1iLTQgc2hhZG93LWxnYH0+CiAgICAgICAgICAgICAgICA8Zi5pY29uIGNsYXNzTmFtZT0idy03IGgtNyB0ZXh0LXdoaXRlIiAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1ib2xkIHRleHQtd2hpdGUgbWItMiBncm91cC1ob3Zlcjp0ZXh0LVsjMDBjMmZmXSB0cmFuc2l0aW9uLWNvbG9ycyI+e2YudGl0bGV9PC9oMz4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtZ3JheS00MDAgbGVhZGluZy1yZWxheGVkIj57Zi5kZXNjcmlwdGlvbn08L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKSl9CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9zZWN0aW9uPgogICk7Cn0K
+'use client';
+
+import { Shield, CreditCard, BarChart3, Zap, Lock, TrendingUp } from 'lucide-react';
+
+const features = [
+  { icon: Shield, title: 'Google sign-in', description: 'Secure access for your customers.', color: 'from-[#00c2ff] to-[#0099cc]' },
+  { icon: CreditCard, title: 'Stripe billing', description: 'Monthly/annual plans + self-serve portal.', color: 'from-[#8b5cf6] to-[#6d28d9]' },
+  { icon: BarChart3, title: 'Real-Time Dashboard', description: 'Monitor reviews and analytics in one intuitive interface.', color: 'from-[#00c2ff] to-[#8b5cf6\¢éí },
+  { icon: Zap, title: 'AI Responses', description: 'AI-powered responses generated in seconds.', colorz 'from-[#8b5cf6\¢éí to-[#00c2ff]' },
+  { icon: Lock, title: 'Bank-Level Security', description: 'Your data is encrypted and protected with industry-leading security protocols.', color: 'from-[#00c2ff] to-[#0099cc]' },
+  { icon: TrendingUp, title: 'SEO Optimization', description: 'Boost your local search rankings with consistent review responses.', color: 'from-[#8b5cf6] to-[#6d28d9]' },
+];
+
+export default function FeaturesSection() {
+  return (
+    <section id="features" className="py-20 px-4 sm:px-6 lg:px-8 relative bg-[#0a0f1e]">
+      <div className="max-w-7xl mx-auto">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-white mb-4">Everything You Need to Succeed</h2>
+          <p className="text-gray-400">Built with the latest technology for a seamless experience.</p>
+        </div>
+        <div className="grid md:grid-cols-2 lnºgrid-cols-3 gap-8">
+          {features.map((f, i) => (
+            <div key={i} className="group backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-6 hover:bg-white/10 transition-all">
+              <div className={`w-14 h-14 rounded-xl bg-gradient-to-r ${f.color} flex items-center justify-center mb-4 shadow-lg`}>
+                <f.icon className="w-7 h-7 text-white" />
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#00c2ff] transition-colors">{f.title}</h3>
+              <p className="text-gray-400 leading-relaxed">{f.description}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
