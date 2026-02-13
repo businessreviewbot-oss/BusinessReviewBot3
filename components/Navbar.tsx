@@ -1,1 +1,43 @@
-J3VzZSBjbGllbnQnOwoKaW1wb3J0IHsgU3BhcmtsZXMsIE1lbnUsIFggfSBmcm9tICdsdWNpZGUtcmVhY3QnOwppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnOwppbXBvcnQgeyBzdGF0ZSwgQW5pbWF0ZVByZXNlbmNlLCBtb3Rpb24gfSBmcm9tICdmcmFtZXItbW90aW9uJzsKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICdyZWFjdCc7CmltcG9ydCB7IHNpZ25JbiB9IGZyb20gJ25leHQtYXV0aC9yZWFjdCc7CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBOYXZiYXIoKSB7CiAgY29uc3QgW2lzT3Blbiwgc2V0SXNPcGVuXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgcmV0dXJuICgKICAgIDxuYXYgY2xhc3NOYW1lPSJmaXhlZCB0b3AtMCBsZWZ0LTAgcmlnaHQtMCB6LTUwIGJhY2tkcm9wLWJsdXItbGcgYmctWyMwYTBmMWVdLzkwIGJvcmRlci1iIGJvcmRlci13aGl0ZS8xMCBn bGFzcyI+CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJtYXgtdy03eGwgbXgtYXV0byBweC00IHNtOnB4LTYgbGc6cHgtOCI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBoLTE2Ij4KICAgICAgICAgIDxMaW5rIGhyZWY9Ii8iIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgc3BhY2UteC0yIGdyb3VwIj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLWdyYWRpZW50LXRvLXIgZnJvbS1bIzAwYzJmZl0gdG8tWyM4YjVjZjZdIHAtMiByb3VuZGVkLWxnIGdyb3VwLWhvdmVyOnNjYWxlLTExMCB0cmFuc2l0aW9uLXRyYW5zZm9ybSI+CiAgICAgICAgICAgICAgPFNwYXJrbGVzIGNsYXNzTmFtZT0idy01IGgtNSB0ZXh0LXdoaXRlIiAvPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIj5CdXNpbmVzc1Jldmlld0JvdDwvc3Bhbj4KICAgICAgICAgIDwvTGluaz4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaGlkZGVuIG1kOmZsZXggaXRlbXMtY2VudGVyIHNwYWNlLXgtOCI+CiAgICAgICAgICAgIDxMaW5rIGhyZWY9IiNmZWF0dXJlcyIgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktMzAwIGhvdmVyOnRleHQtWyMwMGMyZmZlIHRyYW5zaXRpb24tY29sb3JzIGZvbnQtbWVkaXVtIHJlbGF0aXZlIGdyb3VwIj4KICAgICAgICAgICAgICBGZWF0dXJlcwogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgIDxMaW5rIGhyZWY9IiNwcmljaW5nIiBjbGFzc05hbWU9InRleHQtZ3JheS0zMDAgaG92ZXI6dGV4dC1bIzAwYzJmZl0gdHJhbnNpdGlvbi1jb2xvcnMgZm9udC1tZWRpdW0gcmVsYXRpdmUgZ3JvdXAiPgogICAgICAgICAgICAgIFByaWNpbmcKICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8YnV0dG9uIG9uQ2xpY2s9eygpID0+IHNpZ25JbignZ29vZ2xlJyl9IGNsYXNzTmFtZT0idGV4dC1ncmF5LTMwMCBob3Zlcjp0ZXh0LXdoaXRlIHRyYW5zaXRpb24tY29sb3JzIGZvbnQtbWVkaXVtIj5TaWduIEluPC9idXR0b24+CiAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2lnbkluKCdnb29nbGUnKX0gY2xhc3NOYW1lPSJweC02IHB5LTIuNSByb3VuZGVkLWxnIGJnLWdyYWRpZW50LXRvLXIgZnJvbS1bIzAwYzJmZl0gdG8tWyM4YjVjZjZdIHRleHQtd2hpdGUgZm9udC1zZW1pYm9sZCBob3ZlcjpvcGFjaXR5LTkwIj5HZXQgU3RhcnRlZDwvYnV0dG9uPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1kOmhpZGRlbiI+CiAgICAgICAgICAgIDxidXR0b24gb25DbGljaz17KCkgPT4gc2V0SXNPcGVuKCFpc09wZW4pfSBjbGFzc05hbWU9InAtMiByb3VuZGVkLWxnIGJnLXdoaXRlLzEwIj4KICAgICAgICAgICAgICB7aXNPcGVuID8gPFggY2xhc3NOYW1lPSidy02IGgtNicIC8+IDogPE1lbnUgY2xhc3NOYW1lPSidy02IGgtNicIC8+fQogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L2Rpdj4KICAgIDwvbmF2PgogICk7Cn0K
+'use client';
+
+import { Sparkles, Menu, X } from 'lucide-react';
+import Link from 'next/link';
+import { state, AnimatePresence, motion } from 'framer-motion';
+import { useState } from 'react';
+import { signIn } from 'next-auth/react';
+
+export default function Navbar() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-lg bg-[#0a0f1e]/90 border-b border-white/10 glass">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex items-center justify-between h-16">
+          <Link href="/" className="flex items-center space-x-2 group">
+            <div className="bg-gradient-to-r from-[#00c2ff] to-[#8b5cf6] p-2 rounded-lg group-hover:scale-110 transition-transform">
+              <Sparkles className="w-5 h-5 text-white" />
+            </div>
+            <span className="text-xl font-bold text-white">BusinessReviewBot</span>
+          </Link>
+
+          <div className="hidden md:flex items-center space-x-8">
+            <Link href="#features" className="text-gray-300 hover:text-[#00c2ffe transition-colors font-medium relative group">
+              Features
+            </Link>
+            <Link href="#pricing" className="text-gray-300 hover:text-[#00c2ff] transition-colors font-medium relative group">
+              Pricing
+            </Link>
+            <button onClick={() => signIn('google')} className="text-gray-300 hover:text-white transition-colors font-medium">Sign In</button>
+            <button onClick={() => signIn('google')} className="px-6 py-2.5 rounded-lg bg-gradient-to-r from-[#00c2ff] to-[#8b5cf6] text-white font-semibold hover:opacity-90">Get Started</button>
+          </div>
+
+          <div className="md:hidden">
+            <button onClick={() => setIsOpen(!isOpen)} className="p-2 rounded-lg bg-white/10">
+              {isOpen ? <X className=(ËMMÂóâ¢ÄÖVçR6Æ74æÖSÒÜ´Ø ´Ø />}
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+}
