@@ -1,1 +1,24 @@
-J3VzZSBjbGllbnQnOwoKaW1wb3J0IHsgU3BhcmtsZXMsIFR3aXR0ZXIsIExpbmtlZGluLCBGaXRodWIsIE1haWwgfSBmcm9tICdsdWNpZGUtcmVhY3QnOwppbXBvcnQgTGluayBmcm9tICduZXh0L2xpbmsnOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRm9vdGVyKCkgewogIHJldHVybiAoCiAgICA8Zm9vdGVyIGNsYXNzTmFtZT0icmVsYXRpdmUgYm9yZGVyLXQgYm9yZGVyLXdoaXRlLzEwIGJnLVswYTBmMWVdIHB5LTEyIj4KICAgICAgPGRpdiBjbGFzc05hbWU9Im1heC13LTd4bCBteC1hdXRvIHB4LTQgdGV4dC1jZW50ZXIiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBzcGFjZS14LTIgbWItOCI+CiAgICAgICAgICA8U3BhcmtsZXMgY2xhc3NOYW1lPSJ0ZXh0LVsjMDBjMmZmXSIgLz4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC13aGl0ZSBmb250LWJvbGQgdGV4dC14bCI+QnVzaW5lc3NSZXZpZXdCb3Q8L3NwYW4+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktNDAwIG1iLTgiPsKpIDIwMjYgQnVzaW5lc3NSZXZpZXdCb3QuIEFsbCByaWdodHMgcmVzZXJ2ZWQuPC9wPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGp1c3RpZnktY2VudGVyIHNwYWNlLXgtNiI+CiAgICAgICAgICA8VHdpdHRlciBjbGFzc05hbWU9InRleHQtZ3JheS00MDAgaG92ZXI6dGV4dC13aGl0ZSBjdXJzb3ItcG9pbnRlciIgLz4KICAgICAgICAgIDxMaW5rZWRpbiBjbGFzc05hbWU9InRleHQtZ3JheS00MDAgaG92ZXI6dGV4dC13aGl0ZSBjdXJzb3ItcG9pbnRlciIgLz4KICAgICAgICAgIDxHaXRodWIgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktNDAwIGhvdmVyOnRleHQtd2hpdGUgY3Vyc29yLXBvaW50ZXIiIC8+CiAgICAgICAgICA8TWFpbCBjbGFzc05hbWU9InRleHQtZ3JheS00MDAgaG92ZXI6dGV4dC13aGl0ZSBjdXJzb3ItcG9pbnRlciIgLz4KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Zvb3Rlcj4KICApOwp9Cg==
+'use client';
+
+import { Sparkles, Twitter, Linkedin, Fithub, Mail } from 'lucide-react';
+import Link from 'next/link';
+
+export default function Footer() {
+  return (
+    <footer className="relative border-t border-white/10 bg-[0a0f1e] py-12">
+      <div className="max-w-7xl mx-auto px-4 text-center">
+        <div className="flex items-center justify-center space-x-2 mb-8">
+          <Sparkles className="text-[#00c2ff]" />
+          <span className="text-white font-bold text-xl">BusinessReviewBot</span>
+        </div>
+        <p className="text-gray-400 mb-8">Â© 2026 BusinessReviewBot. All rights reserved.</p>
+        <div className="flex justify-center space-x-6">
+          <Twitter className="text-gray-400 hover:text-white cursor-pointer" />
+          <Linkedin className="text-gray-400 hover:text-white cursor-pointer" />
+          <Github className="text-gray-400 hover:text-white cursor-pointer" />
+          <Mail className="text-gray-400 hover:text-white cursor-pointer" />
+        </div>
+      </div>
+    </footer>
+  );
+}
