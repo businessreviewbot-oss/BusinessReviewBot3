@@ -11,10 +11,10 @@ import Footer from '@/components/Footer';
 
 export default function LandingPage() {
   return (
-    <main className=\"min-h-screen bg-[#06162c] text-white selection:bg-sky-500/30\">
+    <main className="min-h-screen bg-[#06162c] text-white selection:bg-sky-500/30">
       <Navbar />
       <HeroSection />
-      <div className=\"relative z-10\">
+      <div className="relative z-10">
         <MagicResponseGenerator />
         <FeaturesSection />
         <FAQSection />
