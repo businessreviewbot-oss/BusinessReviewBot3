@@ -1,1 +1,64 @@
-J3VzZSBjbGllbnQnOwoKaW1wb3J0IHsgIHVzZVN0YXRlIH0gZnJvbSAncmVhY3QnOwppbXBvcnQgeyBtb3Rpb24sIEFuaW1hdGVQcmVzZW5jZSB9IGZyb20gJ2ZyYW1lci1tb3Rpb24nOwppbXBvcnQgeyBDaGV2cm9uRG93biwgSGVscENpcmNsZSB9IGZyb20gJ2x1Y2lkZS1yZWFjdCc7Cgpjb25zdCBmYXFzID0gWwogIHsKICAgIHF1ZXN0aW9uOiAnSG93IGRvZXMgdGhlIEFJIGdlbmVyYXRlIHJlc3BvbnNlcz8nLAogICAgYW5zd2VyOiAnT3VyIEFJIHVzZXMgYWR2YW5jZWQgbmF0dXJhbCBsYW5ndWFnZSBwcm9jZXNzaW5nIHRvIGFuYWx5emUgdGhlIHNlbnRpbWVudCBhbmQgY29udGVudCBvZiB5b3VyIHJldmlld3MuIEl0IHRoZW4gY3JhZnRzIGEgcGVyc29uYWxpemVkLCBwcm9mZXNzaW9uYWwgcmVzcG9uc2UgdGhhdCBhZGRyZXNzZXMgc3BlY2lmaWMgcG9pbnRzIG1lbnRpb25lZCBieSB0aGUgY3VzdG9tZXIgd2hpbGUgbWFpbnRhaW5pbmcgeW91ciBicmFuZCB2b2ljZS4nLAogIH0sCiAgewogICAgcXVlc3Rpb246ICdEb2VzIGl0IHdvcmsgd2l0aCBHb29nbGUgQnVzaW5lc3MgUHJvZmlsZT8nLAogICAgYW5zd2VyOiAnWWVzISBXZSBvZmZlciBzZWFtbGVzcyBpbnRlZ3JhdGlvbiB3aXRoIEdvb2dsZSBCdXNpbmVzcyBQcm9maWxlLiBZb3UgY2FuIHZpZXcgYW5kIHJlcGx5IHRvIGFsbCB5b3VyIEdvb2dsZSByZXZpZXdzIGRpcmVjdGx5IGZyb20gb3VyIGRhc2hib2FyZC4nLAogIH0sCiAgewogICAgcXVlc3Rpb246ICdDYW4gSSBjdXN0b21pemUgdGhlIHJlc3BvbnNlIHN0eWxlPycsCiAgICBhbnN3ZXI6ICdBYnNvbHV0ZWx5LiBZb3UgY2FuIHNldCB5b3VyIHByZWZlcnJlZCB0b25lIChwcm9mZXNzaW9uYWwsIGZyaWVuZGx5LCBjYXN1YWwpIGFuZCBldmVuIHByb3ZpZGUgc3BlY2lmaWMgaW5zdHJ1Y3Rpb25zIG9yIGtleXdvcmRzIHlvdSB3YW50IHRoZSBBSSB0byBpbmNsdWRlIG9yIGF2b2lkLicsCiAgfSwKICB7CiAgICBxdWVzdGlvbjogJ0lzIHRoZXJlIGEgZnJlZSB0cmlhbCBhdmFpbGFibGU/JywKICAgIGFuc3dlcjogJ1llcywgd2Ugb2ZmZXIgYSA3LWRheSBmcmVlIHRyaWFsIHdpdGggZnVsbCBhY2Nlc3MgdG8gYWxsIGZlYXR1cmVzIHNvIHlvdSBjYW4gZXhwZXJpZW5jZSB0aGUgdGltZS1zYXZpbmcgYmVuZWZpdHMgeW91cnNlbGYuJywKICB9LApdOwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRkFRU2VjdGlvbigpIHsKICBjb25zdCBbYWN0aXZlSW5kZXgsIHNldEFjdGl2ZUluZGV4XSA9IHVzZVN0YXRlPG51bWJlciB8IG51bGw+KG51bGwpOwoKICByZXR1cm4gKAogICAgPHNlY3Rpb24gaWQ9ImZhcSIgY2xhc3NOYW1lPSJweS0yMCBweC00IHNtOnB4LTYgbGc6cHgtOCBiZy1bIzBhMGYxZV0iPgogICAgICA8ZGl2IGNsYXNzTmFtZT0ibWF4LXctM3hsIG14LWF1dG8iPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBtYi0xMiI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBzbTp0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC13aGl0ZSBtYi00Ij5GcmVxdWVudGx5IEFza2VkIFF1ZXN0aW9uczwvaDI+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtZ3JheS00MDAiPkV2ZXJ5dGhpbmcgeW91IG5lZWQgdG8ga25vdyBhYm91dCBCdXNpbmVzc1Jldmlld0JvdC48L3A+CiAgICAgICAgPC9kaXY+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNCI+CiAgICAgICAgICB7ZmFxcy5tYXAoKGZhcSwgaW5kZXgpID0+ICgKICAgICAgICAgICAgPGRpdiBrZXk9e2luZGV4fSBjbGFzc05hbWU9ImJvcmRlciBib3JkZXItd2hpdGUvMTAgcm91bmRlZC14bCBvdmVyZmxvdy1oaWRkZW4gYmctd2hpdGUvNSI+CiAgICAgICAgICAgICAgPGJ1dHRvbgogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0QWN0aXZlSW5kZXgoYWN0aXZlSW5kZXggPT09IGluZGV4ID8gbnVsbCA6IGluZGV4KX0KICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB4LTYgcHktNCB0ZXh0LWxlZnQgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1iZXR3ZWVuIHRleHQtd2hpdGUgaG92ZXI6Ymctd2hpdGUvNSB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQiPntmYXEucXVlc3Rpb259PC9zcGFuPgogICAgICAgICAgICAgICAgPENoZXZyb25Eb3duIGNsYXNzTmFtZT17YHctNSBoLTUgdHJhbnNpdGlvbi10cmFuc2Zvcm0gJHthY3RpdmVJbmRleCA9PT0gaW5kZXggPyAncm90YXRlLTE4MCcgOiAnJ31gfSAvPgogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICAgIDxBbmltYXRlUHJlc2VuY2U+CiAgICAgICAgICAgICAgICB7YWN0aXZlSW5kZXggPT09IGluZGV4ICYmICgKICAgICAgICAgICAgICAgICAgPG1vdGlvbi5kaXYKICAgICAgICAgICAgICAgICAgICBpbml0aWFsPXt7IGhlaWdodDogMCwgb3BhY2l0eTogMCB9fQogICAgICAgICAgICAgICAgICAgIGFuaW1hdGU9e3sgaGVpZ2h0OiAnYXV0bycsIG9wYWNpdHk6IDEgfX0KICAgICAgICAgICAgICAgICAgICBleGl0PXt7IGhlaWdodDogMCwgb3BhY2l0eTogMCB9fQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtNiBwYi00IHRleHQtZ3JheS00MDAiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7ZmFxLmFuc3dlcn0KICAgICAgICAgICAgICAgICAgPC9tb3Rpb24uZGl2PgogICAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgICA8L0FuaW1hdGVQcmVzZW5jZT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApKX0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L3NlY3Rpb24+CiAgKTsKfQo=
+'use client';
+
+import {  useState } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
+import { ChevronDown, HelpCircle } from 'lucide-react';
+
+const faqs = [
+  {
+    question: 'How does the AI generate responses?',
+    answer: 'Our AI uses advanced natural language processing to analyze the sentiment and content of your reviews. It then crafts a personalized, professional response that addresses specific points mentioned by the customer while maintaining your brand voice.',
+  },
+  {
+    question: 'Does it work with Google Business Profile?',
+    answer: 'Yes! We offer seamless integration with Google Business Profile. You can view and reply to all your Google reviews directly from our dashboard.',
+  },
+  {
+    question: 'Can I customize the response style?',
+    answer: 'Absolutely. You can set your preferred tone (professional, friendly, casual) and even provide specific instructions or keywords you want the AI to include or avoid.',
+  },
+  {
+    question: 'Is there a free trial available?',
+    answer: 'Yes, we offer a 7-day free trial with full access to all features so you can experience the time-saving benefits yourself.',
+  },
+];
+
+export default function FAQSection() {
+  const [activeIndex, setActiveIndex] = useState<number | null>(null);
+
+  return (
+    <section id="faq" className="py-20 px-4 sm:px-6 lg:px-8 bg-[#0a0f1e]">
+      <div className="max-w-3xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">Frequently Asked Questions</h2>
+          <p className="text-gray-400">Everything you need to know about BusinessReviewBot.</p>
+        </div>
+        <div className="space-y-4">
+          {faqs.map((faq, index) => (
+            <div key={index} className="border border-white/10 rounded-xl overflow-hidden bg-white/5">
+              <button
+                onClick={() => setActiveIndex(activeIndex === index ? null : index)}
+                className="w-full px-6 py-4 text-left flex items-center justify-between text-white hover:bg-white/5 transition-colors"
+              >
+                <span className="font-semibold">{faq.question}</span>
+                <ChevronDown className={`w-5 h-5 transition-transform ${activeIndex === index ? 'rotate-180' : ''}`} />
+              </button>
+              <AnimatePresence>
+                {activeIndex === index && (
+                  <motion.div
+                    initial={{ height: 0, opacity: 0 }}
+                    animate={{ height: 'auto', opacity: 1 }}
+                    exit={{ height: 0, opacity: 0 }}
+                    className="px-6 pb-4 text-gray-400"
+                  >
+                    {faq.answer}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
