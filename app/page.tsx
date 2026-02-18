@@ -1,25 +1,23 @@
-'use client';
-import Navbar from '@/components/Navbar';
-import HeroSection from '@/components/HeroSection';
-import FeaturesSection from '@/components/FeaturesSection';
-import PricingSection from '@/components/PricingSection';
-import MagicResponseGenerator from '@/components/MagicResponseGenerator';
-import FAQSection from '@/components/FAQSection';
-import Footer from '@/components/Footer';
+import { Navbar } from './components/Navbar';
+import { HeroSection } from './components/HeroSection';
+import { MagicResponseGenerator } from './components/MagicResponseGenerator';
+import { FeaturesSection } from './components/FeaturesSection';
+import { PricingSection } from './components/PricingSection';
+import { FAQSection } from './components/FAQSection';
+import { Footer } from './components/Footer';
 
-
-export default function LandingPage() {
+export default function Home() {
   return (
-    <main className="min-h-screen bg-[#06162c] text-white selection:bg-sky-500/30">
+    <div className="min-h-screen bg-[#06162c]">
       <Navbar />
-      <HeroSection />
-      <div className="relative z-10">
+      <main>
+        <HeroSection />
         <MagicResponseGenerator />
         <FeaturesSection />
         <PricingSection />
         <FAQSection />
-      </div>
+      </main>
       <Footer />
-    </main>
+    </div>
   );
 }
